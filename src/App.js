@@ -7,18 +7,13 @@ import Visit from "./Pages/Visit/Visit";
 import Best from "./Pages/BestSellers/Best";
 import Footer from "./Pages/Footer/Footer";
 import Main from "./Pages/MainMenu/Routes/Routes";
-
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Routes>
-
-      </Routes>
-      <Sidebar/>
-      <Hero/>
-      <Visit/>
-        <Main/>
+        <Hero/>
+<Main/>
+        <Visit/>
       <Best/>
       <Footer/>
     </div>

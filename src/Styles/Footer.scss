@@ -1,0 +1,129 @@
+#footer{
+  width: 100%;
+  height: 216px;
+  background: #121212;
+  .footer{
+    h2{
+      font-family: 'Silk Serif';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      color: #FFFFFF;
+    }
+    padding: 65px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    &--title{
+      &__link {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin: 0 25px;
+      }
+    }
+    &--icon{
+      color: #FFFFFF;
+      font-size: 25px;
+      margin: 0 20px;
+      &__one{
+        margin-right: 20px;
+      }
+    }
+    &--motion{
+      margin: 20px 0;
+      color: #FFFFFF;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      text-transform: capitalize;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 1140px) {
+
+
+}
+
+@media (max-width: 1024px) {
+
+
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 800px) {
+  #footer{
+    .footer{
+      &--title{
+        display: none;
+      }
+      &--motion{
+        text-align: start;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 576px) {
+
+
+}
+
+@media (max-width: 475px) {
+
+
+}
+
+@media (max-width: 462px) {
+
+}
+
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 380px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+  #visit{
+    .visit{
+      &--nav{
+        &__map{
+          margin-left: -62px;
+        }
+      }
+    }
+  }
+}

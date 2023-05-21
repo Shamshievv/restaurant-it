@@ -1,7 +1,7 @@
 
 import './App.scss';
 import Header from "./components/Header/Header";
-import MainMenu from "./Pages/MainMenu/MainMenu";
+import Sidebar from "./Pages/MainMenu/Sidebar";
 import {Route, Routes} from "react-router-dom";
 import Hero from "./Pages/Hero/Hero";
 import Visit from "./Pages/Visit/Visit";

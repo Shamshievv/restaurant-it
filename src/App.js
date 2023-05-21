@@ -15,6 +15,7 @@ function App() {
       <Routes>
 
       </Routes>
+      <Sidebar/>
       <Hero/>
       <Visit/>
         <Main/>

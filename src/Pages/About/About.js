@@ -8,6 +8,8 @@ const About = () => {
                     <div className="about-block">
                         <h1>132456789</h1>
 
+
+
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, recusandae?</p>
                         <p>Lorem ipsum dolor sit amet, recusandae?</p>
                         <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, odio?</h2>
@@ -17,6 +19,7 @@ const About = () => {
 
                         <p>Lorem ipsum.Aza</p>
  
+
                     </div>
                 </div>
             </div>

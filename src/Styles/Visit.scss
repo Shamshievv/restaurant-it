@@ -1,0 +1,223 @@
+#visit{
+
+  padding-bottom: 40px;
+  .visit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &--title{
+      &__sub{
+        font-family: 'Shalimar';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 49px;
+        color: #FFFFFF;
+        margin-left: 12px;
+      }
+      h2{
+        padding: 10px 0 15px 0;
+        font-family: 'Silk Serif',Serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 61px;
+        color: #FFFFFF;
+      }
+      &__exs{
+        padding: 20px 0 20px 0;
+        font-family: 'Spartan';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        p{
+          padding: 20px 0 15px 0;
+        }
+        span{
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 24px;
+          color: #EF272C;
+
+        }
+      }
+      &__last{
+        padding: 20px 0 10px 0;
+        font-family: 'Spartan';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        color: #EF272C;
+        p{
+          padding: 10px 0 20px 0;
+        }
+
+      }
+      p{
+        font-family: 'Spartan';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+      }
+      button{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 5px 0;
+        width: 200px;
+        height: 30px;
+        background: 0;
+        border: 2px solid red;
+        outline: none;
+      }
+      &__line{
+        width: 130px;
+        border: 1.4px solid #EF272C;
+        margin-left: 67px;
+      }
+      &__two{
+        width: 130px;
+        border: 1.4px solid #EF272C;
+      }
+    }
+    &--nav{
+      margin-top: 50px;
+      width: 651px;
+      height: 590px;
+      background: #EF272C;
+      opacity: 0.7;
+      box-shadow: 5px 8px 26px rgba(86, 9, 187, 0.1);
+      border-radius: 2px;
+      &__first{
+        margin-left: 20px;
+        padding: 30px 0;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #1F2731;
+      }
+      &__email{
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 22px;
+        color: #1F2731;
+        span{
+          margin-right: 20px;
+        }
+      }
+      &__tel{
+        padding: 10px 0 20px 0;
+        margin-left: 20px;
+        font-weight: 400;
+        font-size: 22px;
+        color: #1F2731;
+        span{
+          margin-right: 20px;
+        }
+      }
+      &__icons{
+        margin: 30px 20px;
+        font-size: 35px;
+      }
+      &__map{
+        margin-left: 40px;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  #visit{
+    .visit{
+      &--nav{
+        width: 601px;
+        &__map{
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+}
+@media (max-width: 800px) {
+  #visit{
+    .visit{
+      margin-left: 10%;
+      &--title{
+        margin-left: 30%;
+      }
+      &--nav{
+
+        &__map{
+
+        }
+      }
+    }
+  }
+
+}@media (max-width: 768px) {
+  #visit{
+    .visit{
+
+      &--title{
+        margin-left: 4%;
+      }
+      &--nav{
+        background: 0;
+        &__first{
+          display: none;
+        }
+        &__tel{
+          display: none;
+        }
+        &__email{
+          display: none;
+        }
+        &__icons{
+          display: none;
+        }
+
+        &__map{
+
+        }
+      }
+    }
+  }
+
+}
+@media (max-width: 576px) {
+  #visit{
+    .visit{
+      &--nav{
+        &__map{
+          margin-left: 10px;
+          width: 333px;
+          height: 406px;
+        }
+      }
+    }
+  }
+
+}
+@media (max-width: 380px) {
+  #visit{
+    .visit{
+      &--nav{
+        &__map{
+          margin-left: -30px;
+        }
+      }
+    }
+  }
+
+}

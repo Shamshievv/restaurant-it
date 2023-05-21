@@ -1,15 +1,12 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-
-// import "../../Styles/MainMenu.css"
-
 const Sidebar = () => {
     return (
         <div id="sidebar">
             <div className="container">
                 <div className="sidebar__all">
                     <div className="sidebar d-flex flex-column justify-content-between ">
-                        <ul className="nav  flex-column p-0 m-0">
+                        <ul className="nav  ">
                             <li className="nav-item ">
                                 <Link to="/desert" className="nav-link text-white">
                                     <span> Desserts</span>

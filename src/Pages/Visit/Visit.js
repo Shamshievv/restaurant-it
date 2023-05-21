@@ -10,12 +10,6 @@ const Visit = () => {
     return (
         <div id="visit">
             <div className="container">
-                <div className="visit">
-                    <div className="visit--block">
-                        <h1>Lorem ipsum dolor sit.</h1>
-                    </div>
-                </div>
-            </div>
                     <div className="visit--title">
                         <img src={wave} alt=""/>
                         <span className="visit--title__sub">Restaurant</span>
@@ -62,7 +56,6 @@ const Visit = () => {
                                 referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-            </div>
         </div>
 
     );

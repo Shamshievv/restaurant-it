@@ -1,8 +1,5 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import IconImg from "../../images/Frame 9.png"
-import IconImg2 from "../../images/Frame 10.png"
-import "../../Styles/MainMenu.css"
 
 const Sidebar = () => {
     return (
@@ -10,7 +7,7 @@ const Sidebar = () => {
             <div className="container">
                 <div className="sidebar__all">
                     <div className="sidebar d-flex flex-column justify-content-between ">
-                        <ul className="nav  flex-column p-0 m-0">
+                        <ul className="nav  ">
                             <li className="nav-item ">
                                 <Link to="/desert" className="nav-link text-white">
                                     <span> Desserts</span>

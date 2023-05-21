@@ -10,6 +10,8 @@ const Visit = () => {
     return (
         <div id="visit">
             <div className="container">
+                <div className="visit">
+
                     <div className="visit--title">
                         <img src={wave} alt=""/>
                         <span className="visit--title__sub">Restaurant</span>

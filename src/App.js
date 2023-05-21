@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.scss';
 import Header from "./components/Header/Header";
-import {Route, Routes} from "react-router-dom";
 import Hero from "./Pages/Hero/Hero";
 import Visit from "./Pages/Visit/Visit";
 import Best from "./Pages/BestSellers/Best";
@@ -11,9 +10,15 @@ function App() {
   return (
     <div className="App">
       <Header/>
+
         <Hero/>
 <Main/>
         <Visit/>
+
+
+      <Hero/>
+        <Main/>
+      <Visit/>
       <Best/>
       <Footer/>
     </div>

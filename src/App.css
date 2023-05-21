@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
-}
+@import "Styles/Header.scss";
+@import "Styles/Hero.scss";
+@import "Styles/About.scss";
+@import "Styles/BestSellers.scss";
+@import "Styles/MainMenu.scss";
+@import "Styles/ModernInterier.scss";
+@import "Styles/Visit.scss";
+@import "Styles/Footer.scss";
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+    margin: 0;
+    padding: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+    font-family: "League Spartan", sans-serif;
+    background: #525252;
 }
-
-.App-link {
-  color: #61dafb;
+html{
+    scroll-behavior: smooth;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: rgba(190, 188, 188, 0.54);
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(16, 13, 13, 0.47);;
+    border-radius: 20px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
 }

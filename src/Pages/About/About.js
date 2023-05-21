@@ -14,6 +14,11 @@ const About = () => {
                         <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, odio?</h2>
                         <div>Lorem ipsum dolor sit amet.</div>
                         <p>Lorem ipsum.Aza</p>
+                        <nav>
+                            <a href="">contact</a>
+                            <a href="">home</a>
+                            <a href="">about</a>
+                        </nav>
                     </div>
                 </div>
             </div>

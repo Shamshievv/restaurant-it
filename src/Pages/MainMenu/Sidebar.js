@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import IconImg from "../../images/Frame 9.png"
-import IconImg2 from "../../images/Frame 10.png"
+
 import "../../Styles/MainMenu.css"
 
 const Sidebar = () => {

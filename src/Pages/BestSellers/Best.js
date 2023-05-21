@@ -6,7 +6,7 @@ const Best = () => {
             <div className="container">
                 <div className="best">
                     <div className="best--block">
-                        <h1>bekbolsun</h1>
+
                     </div>
                 </div>
             </div>

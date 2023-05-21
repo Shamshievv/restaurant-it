@@ -12,8 +12,7 @@ const About = () => {
                         <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, odio?</h2>
                         <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, odio?</h2>
                         <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, odio?</h2>
-
-
+                        <div>Lorem ipsum dolor sit amet.</div>
                     </div>
                 </div>
             </div>

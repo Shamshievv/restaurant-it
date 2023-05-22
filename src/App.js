@@ -14,14 +14,9 @@ function App() {
   return (
     <div className="App">
       <Header/>
-
+<h1> abytaeva saviya</h1>
         <Hero/>
 <Main/>
-        <Visit/>
-
-
-      <Hero/>
-        <Main/>
         <MenuRout/>
 
       <Visit/>

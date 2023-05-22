@@ -8,14 +8,12 @@ import NationalFoodsMenu from "./MenuPages/NationalFoodsMenu";
 import EasternCuisineMenu from "./MenuPages/EasternCuisineMenu";
 import FastFoodsMenu from "./MenuPages/FastFoodsMenu";
 
+
 const MenuRout = () => {
-
-
     return (
         <div id="rout">
-            <div className="rout ">
-                <div className="rout--all ">
-                    <MenuDeserts/>
+            <div className="rout">
+                <div className="rout--all">
                     <Routes>
                         <Route path='/desertMenu' element={<DesertsMenu/> }/>
                         <Route path='/hotDrinksMenu' element={ <HotDrinksMenu/> }/>
@@ -25,7 +23,7 @@ const MenuRout = () => {
                         <Route path='/fastFoodsMenu' element={ <FastFoodsMenu/> }/>
                     </Routes>
                 </div>
-</div>
+           </div>
         </div>
     );
 };

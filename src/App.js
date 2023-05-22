@@ -15,6 +15,11 @@ function App() {
     <div className="App">
       <Header/>
 
+        <Hero/>
+<Main/>
+        <Visit/>
+
+
       <Hero/>
         <Main/>
         <MenuRout/>

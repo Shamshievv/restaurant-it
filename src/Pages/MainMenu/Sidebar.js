@@ -4,35 +4,35 @@ const Sidebar = () => {
     return (
         <div id="sidebar">
             <div className="container">
-                <div className="sidebar__all">
-                    <div className="sidebar d-flex flex-column justify-content-between ">
+                <div className="sidebar--all  ">
+                    <div className="sidebar" style={{textAlign:"center"}} >
                         <ul className="nav  ">
                             <li className="nav-item ">
-                                <Link to="/desert" className="nav-link text-white">
+                                <Link to="/desert" className="nav-link ">
                                     <span> Desserts</span>
                                 </Link>
                                 <hr className="text-secondary "/>
                             </li>
                             <li className="nav-item ">
-                                <Link to="hotDrinks" className="nav-link text-white">
+                                <Link to="hotDrinks" className="nav-link ">
                                     <span> Hot Drinks</span>
                                 </Link>
                                 <hr className="text-secondary "/>
                             </li>
                             <li className="nav-item ">
-                                <Link to="coldDrinks" className="nav-link text-white">
+                                <Link to="coldDrinks" className="nav-link ">
                                     <span> Cold Drinks</span>
                                 </Link>
                                 <hr className="text-secondary "/>
                             </li>
                             <li className="nav-item ">
-                                <Link to="nationalFoods" className="nav-link text-white">
+                                <Link to="nationalFoods" className="nav-link ">
                                     <span>  National Foods</span>
                                 </Link>
                                 <hr className="text-secondary "/>
                             </li>
                             <li className="nav-item ">
-                                <Link to="easternCuisine" className="nav-link text-white">
+                                <Link to="easternCuisine" className="nav-link ">
                                     <span> Eastern cuisine</span>
                                 </Link>
                                 <hr className="text-secondary "/>
@@ -54,3 +54,4 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
+

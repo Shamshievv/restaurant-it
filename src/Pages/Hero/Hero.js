@@ -58,6 +58,9 @@ const Hero = () => {
                             <div className="hero--main__modal"style={{
                                 // display:open ? "block" : "none",
                                 transform : open ? "translateX(200px)" : "translateX(650px)",
+
+
+
                             }}>
                                 <div className="hero--main__modal--window">
                                     <div className="hero--main__modal--window__block">

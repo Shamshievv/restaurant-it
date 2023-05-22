@@ -12,7 +12,6 @@ function App() {
       <Header/>
       <Hero/>
       <Best/>
-      <Visit/>
       <Main/>
       <Visit/>
       <Best/>

@@ -1,6 +1,6 @@
 import {CiSearch} from "react-icons/ci";
 import React, {useState} from 'react';
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 import {FiSearch} from "react-icons/fi";
 
@@ -21,9 +21,9 @@ const Header = () => {
                             <NavLink onClick={() => setBurger(true)} >
                                 interior
                             </NavLink>
-                            <NavLink onClick={() => setBurger(true)} >
+                            <Link to="/about" onClick={() => setBurger(false)} >
                                 About Us
-                            </NavLink>
+                            </Link>
                             <NavLink onClick={() => setBurger(true)} >
                                 Menu
                             </NavLink>
@@ -46,7 +46,7 @@ const Header = () => {
                             interior
                         </NavLink>
 
-                        <NavLink to={'/'}>
+                        <NavLink   to={'/about'}>
                             About Us
                         </NavLink>
 

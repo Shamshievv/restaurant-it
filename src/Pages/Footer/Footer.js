@@ -14,13 +14,13 @@ const Footer = () => {
                         <Link className="footer--title__link" to={"/"}>
                             interior
                         </Link>
-                        <Link className="footer--title__link" to={"/"}>
+                        <Link className="footer--title__link" to={"/about"}>
                             About us
                         </Link>
-                        <Link className="footer--title__link" to={"/hero"}>
+                        <Link className="footer--title__link" to={"/menu"}>
                             Menu
                         </Link>
-                        <Link className="footer--title__link" to={"/"}>
+                        <Link className="footer--title__link" to={"/contact"}>
                             Contacts
                         </Link>
                     </div>

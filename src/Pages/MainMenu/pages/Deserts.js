@@ -43,12 +43,12 @@ const Desserts = () => {
                     {
                         data.map((item,idx)=>(
                             <div>
-                                <div className="deserts__all">
+                                <div className="deserts--all" style={{ display:'flex',alignItems:"center",justifyContent:"space-between"}}>
                                     <h4>{item.title }</h4>
                                     <h5>...............................................................</h5>
                                     <h2> ${item.price}</h2>
                                 </div>
-                                <p> {item.description}</p>
+                                <p style={{padding:"15px 0"}}> {item.description}</p>
                                 <div className="order-now">
                                     <ul>
                                         <li className="nav-item ">

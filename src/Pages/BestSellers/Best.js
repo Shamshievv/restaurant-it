@@ -30,7 +30,7 @@ const Best = () => {
                         </div>
                         <h1>You Only Reserve
                             Exception</h1>
-                        <p>Each location has a menu that`s curated just for them.
+                        <p>Each rrrrrrr location has a menu that`s curated just for them.
                             See what new at your Cafesio and You`ll find Cafesio
                             Covent Carden moments.</p>
                     </div>

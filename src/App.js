@@ -13,8 +13,8 @@ function App() {
       <Header/>
         <Hero/>
         <Main/>
-      {/*<About/>*/}
-      {/*  <Best/>*/}
+      <About/>
+        <Best/>
         <Visit/>
       <Footer/>
     </div>

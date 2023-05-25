@@ -1,9 +1,9 @@
 import React from 'react';
-import vektor from './../../images/Vector 2.svg'
-import line from './../../images/Line 4.svg'
-import bes from './../../images/Best log.svg'
-import frem19 from './../../images/Frame 19.png'
-import frem20 from './../../images/Frame 20.png'
+import vektor from '../../images/Vector 2.svg'
+import line from '../../images/Line 4.svg'
+import bes from '../../images/Best log.svg'
+import frem19 from '../../images/Frame 19.png'
+import frem20 from '../../images/Frame 20.png'
 import Slider from "react-slick";
 
 const Best = () => {

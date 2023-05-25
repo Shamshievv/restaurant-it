@@ -1,5 +1,5 @@
 import React from 'react';
-import EasternCuisineMenuImg from "../../../images/EasternCuisineMenu.jpeg";
+import EasternCuisineMenuImg from "../../images/EasternCuisineMenu.jpeg";
 
 const EasternCuisineMenu = () => {
     const menu=[

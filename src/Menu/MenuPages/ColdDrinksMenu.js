@@ -1,44 +1,45 @@
 import React from 'react';
-import FastFood from "../../../images/FastFood.jpg";
+import ColdDrinksImg from "../../images/ColdDrinks.png";
 
-const FastFoodsMenu = () => {
+
+const ColdDrinksMenu = () => {
     const menu=[
         {
             id:1,
-            images:FastFood,
-            title:" Burger",
+            images:ColdDrinksImg,
+            title:" Martin",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         },
         {
             id:2,
-            images:FastFood,
-            title:"Burger",
+            images:ColdDrinksImg,
+            title:"Martin",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         }, {
             id:3,
-            images:FastFood,
-            title:"Burger",
+            images:ColdDrinksImg,
+            title:"Martin",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         }, {
             id:4,
-            images:FastFood,
-            title:"Burger",
+            images:ColdDrinksImg,
+            title:"Martin",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         }, {
             id:5,
-            images:FastFood,
-            title:"Burger",
+            images:ColdDrinksImg,
+            title:"Martin",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         },
         {
             id:6,
-            images:FastFood,
-            title:"Burger",
+            images:ColdDrinksImg,
+            title:"Martin",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         },
@@ -73,4 +74,4 @@ const FastFoodsMenu = () => {
     );
 };
 
-export default FastFoodsMenu;
+export default ColdDrinksMenu;

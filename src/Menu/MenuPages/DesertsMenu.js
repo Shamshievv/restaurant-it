@@ -1,49 +1,53 @@
 import React from 'react';
-import NationalFoods from "../../../images/NationalFood.jpg";
+import DessertsMenu1 from "../../images/DessertsMenu1.png"
+import DessertsMenu2 from "../../images/DessertsMenu2.png"
+import DessertsMenu3 from "../../images/DessertsMenu3.png"
+import DessertsMenu4 from "../../images/DessertsMenu4.png"
+import DessertsMenu5 from "../../images/DessertsMenu5.png"
+import DessertsMenu6 from "../../images/DessertsMenu6.png"
 
-const NationalFoodsMenu = () => {
+const DesertsMenu = () => {
     const menu=[
         {
             id:1,
-            images:NationalFoods,
-            title:" meat",
+            images:DessertsMenu1,
+            title:"Ice Cream",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         },
         {
             id:2,
-            images:NationalFoods,
-            title:"meat",
+            images:DessertsMenu2,
+            title:"Ice Cream",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         }, {
             id:3,
-            images:NationalFoods,
-            title:"meat",
+            images:DessertsMenu3,
+            title:"Ice Cream",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         }, {
             id:4,
-            images:NationalFoods,
-            title:"meat",
+            images:DessertsMenu4,
+            title:"Ice Cream",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         }, {
             id:5,
-            images:NationalFoods,
-            title:"meat",
+            images:DessertsMenu5,
+            title:"Ice Cream",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         },
         {
             id:6,
-            images:NationalFoods,
-            title:"meat",
+            images:DessertsMenu6,
+            title:"Ice Cream",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         },
     ]
-
     return (
         <div className=" menuRout" style={{width:"50%",}}>
             <div className="container" >
@@ -53,7 +57,7 @@ const NationalFoodsMenu = () => {
                     {
                         menu.map((el,idx)=>(
                             <div style={{
-                                background:"white",margin:"10px",
+                                 background:"white",margin:"10px",
                             }}>
                                 <img style={{width:'100%'}} src={el.images} alt=""/>
                                 <div style={{display:"flex",alignItems:"center",justifyContent:"space-between"}}>
@@ -73,4 +77,4 @@ const NationalFoodsMenu = () => {
     );
 };
 
-export default NationalFoodsMenu;
+export default DesertsMenu;

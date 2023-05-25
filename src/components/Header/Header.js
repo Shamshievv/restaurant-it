@@ -38,23 +38,23 @@ const Header = () => {
                             </div>
                         </nav>
                     </div>
-                    <NavLink to={'/'}>
+                    <NavLink to='/'>
                         <h1> Restaurant</h1>
                     </NavLink>
                     <nav className="header__navbar">
-                        <NavLink to={'/'}>
+                        <NavLink to='/'>
                             interior
                         </NavLink>
 
-                        <NavLink   to={'/about'}>
+                        <NavLink   to={'/aboutUs'}>
                             About Us
                         </NavLink>
 
-                        <NavLink to={'/'}>
+                        <NavLink to='/menu'>
                             Menu
                         </NavLink>
 
-                        <NavLink to={'/'}>
+                        <NavLink to={'/contacts'}>
                             Contacts
                         </NavLink>
 

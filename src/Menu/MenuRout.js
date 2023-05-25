@@ -14,6 +14,7 @@ const MenuRout = () => {
         <div id="rout">
             <div className="rout">
                 <div className="rout--all">
+                    <MenuDeserts/>
                     <Routes>
                         <Route path='/desertMenu' element={<DesertsMenu/> }/>
                         <Route path='/hotDrinksMenu' element={ <HotDrinksMenu/> }/>

@@ -17,5 +17,4 @@ const MainN = () => {
         </div>
     );
 };
-
 export default MainN;

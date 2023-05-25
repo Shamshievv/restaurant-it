@@ -1,44 +1,44 @@
 import React from 'react';
-import NationalFoods from "../../../images/NationalFood.jpg";
+import FastFood from "../../images/FastFood.jpg";
 
-const NationalFoodsMenu = () => {
+const FastFoodsMenu = () => {
     const menu=[
         {
             id:1,
-            images:NationalFoods,
-            title:" meat",
+            images:FastFood,
+            title:" Burger",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         },
         {
             id:2,
-            images:NationalFoods,
-            title:"meat",
+            images:FastFood,
+            title:"Burger",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         }, {
             id:3,
-            images:NationalFoods,
-            title:"meat",
+            images:FastFood,
+            title:"Burger",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         }, {
             id:4,
-            images:NationalFoods,
-            title:"meat",
+            images:FastFood,
+            title:"Burger",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         }, {
             id:5,
-            images:NationalFoods,
-            title:"meat",
+            images:FastFood,
+            title:"Burger",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         },
         {
             id:6,
-            images:NationalFoods,
-            title:"meat",
+            images:FastFood,
+            title:"Burger",
             price:"9.11",
             discriminant:"soda,cream,milk,sugar"
         },
@@ -73,4 +73,4 @@ const NationalFoodsMenu = () => {
     );
 };
 
-export default NationalFoodsMenu;
+export default FastFoodsMenu;

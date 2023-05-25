@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 const Sidebar = () => {
     return (
         <div id="sidebar">
@@ -8,9 +8,9 @@ const Sidebar = () => {
                     <div className="sidebar" style={{textAlign:"center"}} >
                         <ul className="nav  ">
                             <li className="nav-item ">
-                                <Link to="/desert" className="nav-link ">
+                                <NavLink to="/desert" className="nav-link ">
                                     <span> Desserts</span>
-                                </Link>
+                                </NavLink>
                                 <hr className="text-secondary "/>
                             </li>
                             <li className="nav-item ">
@@ -26,7 +26,7 @@ const Sidebar = () => {
                                 <hr className="text-secondary "/>
                             </li>
                             <li className="nav-item ">
-                                <Link to="nationalFoods" className="nav-link ">
+                                <Link to={"nationalFoods"} className="nav-link ">
                                     <span>  National Foods</span>
                                 </Link>
                                 <hr className="text-secondary "/>

@@ -1,29 +1,24 @@
-// import 'bootstrap/dist/css/bootstrap.min.css'
-
 import './App.scss';
+import {Route, Routes} from "react-router-dom";
+import React from "react";
+import Global from "./Global/Global";
+import MenuRout from "./Menu/MenuRout";
 import Header from "./components/Header/Header";
-import Hero from "./Pages/Hero/Hero";
-import Visit from "./Pages/Visit/Visit";
-import Best from "./Pages/BestSellers/Best";
-import Footer from "./Pages/Footer/Footer";
-import Main from "./Pages/MainMenu/Routes/Routes";
-
-import MenuRout from "./Pages/Menu/MenuRout";
 
 function App() {
-  return (
-    <div className="App">
-      <Header/>
-<h1> abytaeva saviya</h1>
-        <Hero/>
-<Main/>
-        <MenuRout/>
 
-      <Visit/>
-      <Best/>
-      <Footer/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Routes>
+
+                    <Route path="/" element={<Global />} />
+                    <Route path="/menu/*" element={<MenuRout />} />
+                    <Route path="/*" element={<Global />} />
+
+            </Routes>
+        </div>
+    );
 }
 
 export default App;

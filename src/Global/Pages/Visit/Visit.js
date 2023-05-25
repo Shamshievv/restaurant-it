@@ -1,6 +1,6 @@
 import React from 'react';
 
-import wave from "../../images/hero-wave.svg"
+import wave from "../../../images/hero-wave.svg"
 import {BsFillTelephoneOutboundFill} from "react-icons/bs";
 import {MdOutlineMailOutline} from "react-icons/md";
 import {FaTelegramPlane} from "react-icons/fa";

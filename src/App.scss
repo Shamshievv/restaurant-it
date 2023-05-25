@@ -4,14 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
 
 
-@import "Styles/Header.scss";
-@import "Styles/Hero.scss";
-@import "Styles/About.scss";
-@import "Styles/BestSellers.scss";
-@import "Styles/MainMenu.scss";
-@import "Styles/ModernInterier.scss";
-@import "Styles/Visit.scss";
-@import "Styles/Footer.scss";
+@import "components/Header/Header";
+@import "Global/Styles/Hero.scss";
+@import "Global/Styles/About.scss";
+@import "Global/Styles/BestSellers.scss";
+@import "Global/Styles/MainMenu.scss";
+@import "Global/Styles/ModernInterier.scss";
+@import "Global/Styles/Visit.scss";
+@import "Global/Styles/Footer.scss";
 
 
 *{
@@ -20,7 +20,7 @@
 }
 body{
     font-family: "League Spartan", sans-serif;
-    background: #525252;
+    background: #1B2026;
 }
 html{
     scroll-behavior: smooth;
@@ -33,7 +33,7 @@ html{
 }
 ::-webkit-scrollbar-thumb{
     background: rgba(16, 13, 13, 0.47);;
-    border-radius: 20px;
+    //border-radius: 20px;
 }
 .container{
     width: 90%;

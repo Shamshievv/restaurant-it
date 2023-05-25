@@ -1,10 +1,10 @@
 import React from 'react';
-import DessertsMenu1 from "../../../images/DessertsMenu1.png"
-import DessertsMenu2 from "../../../images/DessertsMenu2.png"
-import DessertsMenu3 from "../../../images/DessertsMenu3.png"
-import DessertsMenu4 from "../../../images/DessertsMenu4.png"
-import DessertsMenu5 from "../../../images/DessertsMenu5.png"
-import DessertsMenu6 from "../../../images/DessertsMenu6.png"
+import DessertsMenu1 from "../../images/DessertsMenu1.png"
+import DessertsMenu2 from "../../images/DessertsMenu2.png"
+import DessertsMenu3 from "../../images/DessertsMenu3.png"
+import DessertsMenu4 from "../../images/DessertsMenu4.png"
+import DessertsMenu5 from "../../images/DessertsMenu5.png"
+import DessertsMenu6 from "../../images/DessertsMenu6.png"
 
 const DesertsMenu = () => {
     const menu=[

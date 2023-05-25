@@ -9,9 +9,10 @@ import NationalFoods from "../pages/NationalFoods";
 import EasternCuisine from "../pages/EasternCuisine";
 import FastFoods from "../pages/FastFoods";
 
-import IconImg from "../../../images/hero-wave-right.svg";
-import IconImg2 from "../../../images/hero-wave-right.svg";
+import IconImg from "../../../../images/hero-wave-right.svg";
+import IconImg2 from "../../../../images/hero-wave-right.svg";
 import { BsArrowRight } from 'react-icons/bs';
+import MenuRout from "../../../../Menu/MenuRout";
 
 const Main = () => {
 
@@ -32,7 +33,7 @@ const Main = () => {
 
         </div>
 
-        <div className="rout--all d-flex p-3">
+        <div className="rout--all d-flex">
             <Sidebar/>
             <Routes>
                 <Route path='/desert' element={<Desserts/> }/>
@@ -41,7 +42,7 @@ const Main = () => {
                 <Route path='/nationalFoods' element={ <NationalFoods/> }/>
                 <Route path='/easternCuisine' element={ <EasternCuisine/> }/>
                 <Route path='/fastFoods' element={ <FastFoods/> }/>
-
+                <Route path='/menuRout' element={ <MenuRout/> }/>
             </Routes>
 
         </div>

@@ -18,9 +18,9 @@ const About = () => {
                         <div>Lorem ipsum dolor sit amet.</div>
                         <p>Lorem ipsum.Aza</p>
                         <nav>
-                            <a href="">contact</a>
-                            <a href="">home</a>
-                            <a href="">about</a>
+                            <a href="src/Global/Pages/About/About">contact</a>
+                            <a href="src/Global/Pages/About/About">home</a>
+                            <a href="src/Global/Pages/About/About">about</a>
                         </nav>
                     </div>
                 </div>

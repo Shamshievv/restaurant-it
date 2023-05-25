@@ -6,7 +6,7 @@ const Sidebar = () => {
             <div className="container">
                 <div className="sidebar--all  ">
                     <div className="sidebar" style={{textAlign:"center"}} >
-                        <ul className="nav  ">
+                        <ul className="nav">
                             <li className="nav-item ">
                                 <Link to="/desert" className="nav-link ">
                                     <span> Desserts</span>

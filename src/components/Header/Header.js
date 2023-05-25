@@ -24,7 +24,7 @@ const Header = () => {
                             <Link to="/about" onClick={() => setBurger(false)} >
                                 About Us
                             </Link>
-                            <NavLink onClick={() => setBurger(true)} >
+                            <NavLink to={"/menu"} onClick={() => setBurger(false)} >
                                 Menu
                             </NavLink>
 

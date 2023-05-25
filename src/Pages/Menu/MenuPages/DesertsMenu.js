@@ -49,10 +49,10 @@ const DesertsMenu = () => {
         },
     ]
     return (
-        <div className=" menuRout" style={{width:"50%",}}>
+        <div className="menuRout" style={{width:"50%",}}>
             <div className="container" >
                 <div className="menuDesert " style={{
-                    width:"48%" , display: "grid", gridTemplateColumns: "1fr 1fr"
+                    width:"48%" , display: "grid",
                 }}>
                     {
                         menu.map((el,idx)=>(

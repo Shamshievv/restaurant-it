@@ -17,13 +17,11 @@ function App() {
                <Route path="/*" element={<Global />} />
             <Route path="/aboutUs" element={<About/>} />
             <Route path="/contacts" element={<Visit/>} />
-
         </Routes>
       <Footer/>
     </div>
   );
 }
-
 export default App;
 
 

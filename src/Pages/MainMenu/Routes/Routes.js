@@ -81,7 +81,7 @@ const Main = () => {
 
 
     return (
-<div id="rout">
+<div  id="rout">
     <div className="rout ">
         <div className="rout--teen">
             <div className="rout--img " style={{color:"white" ,display:"flex",alignItems:"center",justifyContent:"space-between"}}>
@@ -112,8 +112,9 @@ const Main = () => {
         <div  className="rout--link ">
             <ul >
                 <li className="nav-item ">
-                    <Link to="/menuRout" style={{color:"white"}} className="nav-link text-white">
-                        <span >  View Full menu  <BsArrowRight/> </span>
+                    <Link to="/menu" style={{color:"white"}} className="nav-link text-white">
+                        <span style={{
+                        }} >  View Full menu  <BsArrowRight/> </span>
                     </Link>
                 </li>
 

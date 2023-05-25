@@ -50,7 +50,7 @@ const Header = () => {
                             About Us
                         </NavLink>
 
-                        <NavLink to={'/menu'}>
+                        <NavLink to={'/menuMain'}>
                             Menu
                         </NavLink>
 

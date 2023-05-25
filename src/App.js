@@ -11,11 +11,9 @@ function App() {
         <div className="App">
             <Header/>
             <Routes>
-
                     <Route path="/" element={<Global />} />
                     <Route path="/menu/*" element={<MenuRout />} />
                     <Route path="/*" element={<Global />} />
-
             </Routes>
         </div>
     );

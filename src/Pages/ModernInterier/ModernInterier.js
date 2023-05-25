@@ -3,7 +3,7 @@ import React from 'react';
 const ModernInterier = () => {
     return (
         <div>
-
+          modern
         </div>
     );
 };

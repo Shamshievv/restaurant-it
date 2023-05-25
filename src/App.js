@@ -1,29 +1,22 @@
 import './App.scss';
 import Header from "./components/Header/Header";
-import Hero from "./Pages/Hero/Hero";
 import Visit from "./Pages/Visit/Visit";
 import Footer from "./Pages/Footer/Footer";
-import Best from "./Pages/BestSellers/Best";
-import Main from "./Pages/MainMenu/Routes/Routes";
 import {Route, Routes} from "react-router-dom";
-import About from "./Pages/About/About";
-
+import MenuAdaptation from "./Pages/M-adaptation/menuAdaptation";
+import React from "react";
+import MainPage from "./Pages/main";
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Hero/>
       <Routes>
-          <Route path={"/about"} element={<About/>}/>
+          <Route path={"/mAdaptation"} element={<MenuAdaptation/>}/>
+          <Route path={"/"} element={<MainPage/>}/>
+          <Route path={"/visit"} element={<Visit/>}/>
       </Routes>
-        <About/>
-      <Best/>
-      <Main/>
-      <Visit/>
-      <Best/>
       <Footer/>
     </div>
   );
 }
-
 export default App;

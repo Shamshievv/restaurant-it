@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import {Link, NavLink} from "react-router-dom";
 
 import {FiSearch} from "react-icons/fi";
+import MenuAdaptation from "../../Pages/M-adaptation/menuAdaptation";
 
 const Header = () => {
     const [burger, setBurger] = useState(false)
@@ -24,11 +25,10 @@ const Header = () => {
                             <Link to="/about" onClick={() => setBurger(false)} >
                                 About Us
                             </Link>
-                            <NavLink onClick={() => setBurger(true)} >
+                            <NavLink to="/mAdaptation" onClick={() => setBurger(false)} >
                                 Menu
                             </NavLink>
-
-                            <NavLink onClick={() => setBurger(true)} >
+                            <NavLink to="/visit" onClick={() => setBurger(false)} >
                                 Contacts
                             </NavLink>
                             <div className="header__menu--navbar__languages">
@@ -50,11 +50,11 @@ const Header = () => {
                             About Us
                         </NavLink>
 
-                        <NavLink to={'/'}>
+                        <NavLink to={"/menu"}>
                             Menu
                         </NavLink>
 
-                        <NavLink to={'/'}>
+                        <NavLink to={'/visit'}>
                             Contacts
                         </NavLink>
 
@@ -71,8 +71,6 @@ const Header = () => {
                         <div style={{
                             transform:burger ? "rotate(30deg) " : "rotate(0)",
                             transition:".4s",
-
-
                         }} className="header__brm">
                             <div style={{
                                 transform:burger ? "rotate(-79deg) " : "rotate(0)",
@@ -95,12 +93,13 @@ const Header = () => {
                             }} className="header__brm--bottom"/>
                         </div>
                         <div  style={{
-                            transform: burger ? "rotate(-49deg)" : "rotate(0)",
+                            transform: burger ? "rotate(-45deg)" : "rotate(0)",
                             display: burger ? "block" : "none" ,
                             transition:burger ? ".4s": ""
 
                         }}
                               className="header__close"/>
+
                     </div>
                 </div>
             </div>

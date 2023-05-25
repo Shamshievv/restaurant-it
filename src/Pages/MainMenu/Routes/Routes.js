@@ -77,8 +77,7 @@ import IconImg from "../../../images/hero-wave-right.svg";
 import IconImg2 from "../../../images/hero-wave-right.svg";
 import { BsArrowRight } from 'react-icons/bs';
 
-const Main = () => {
-
+const MainSaviya = () => {
 
     return (
 <div id="rout">
@@ -99,13 +98,12 @@ const Main = () => {
         <div className="rout--all d-flex p-3">
             <Sidebar/>
             <Routes>
-                <Route path='/desert' element={<Desserts/> }/>
+                <Route path="/deserts" element={<Desserts/> }/>
                 <Route path='/hotDrinks' element={ <HotDrinks/> }/>
                 <Route path='/coldDrinks' element={ <ColdDrinks/> }/>
                 <Route path='/nationalFoods' element={ <NationalFoods/> }/>
                 <Route path='/easternCuisine' element={ <EasternCuisine/> }/>
                 <Route path='/fastFoods' element={ <FastFoods/> }/>
-
             </Routes>
 
         </div>
@@ -128,7 +126,7 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default MainSaviya;
 
 
 

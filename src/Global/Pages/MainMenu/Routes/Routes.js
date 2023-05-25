@@ -28,7 +28,7 @@ const Main = () => {
 
             </div>
 
-            <h1 style={{color:"white",padding:"20px 0"}}>Exceptional Quality. <br/>
+            <h1 style={{color:"white",padding:"20px 0"}}>Exceptiona Quality. <br/>
                 Delightfully Delicious</h1>
 
         </div>

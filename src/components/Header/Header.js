@@ -50,11 +50,11 @@ const Header = () => {
                             About Us
                         </NavLink>
 
-                        <NavLink to={'/'}>
+                        <NavLink to={'/menu'}>
                             Menu
                         </NavLink>
 
-                        <NavLink to={'/'}>
+                        <NavLink to={'/contact'}>
                             Contacts
                         </NavLink>
 

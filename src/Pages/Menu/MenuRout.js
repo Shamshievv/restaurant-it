@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Routes} from "react-router-dom";
+import {Outlet, Route, Routes} from "react-router-dom";
 import DesertsMenu from "./MenuPages/DesertsMenu";
 import MenuDeserts from "./Menu";
 import HotDrinksMenu from "./MenuPages/HotDrinksMenu";
@@ -16,13 +16,14 @@ const MenuRout = () => {
                 <div className="rout--all">
 
                     <MenuDeserts/>
+
                     <Routes>
-                        <Route path='/desertMenu' element={<DesertsMenu/> }/>
-                        <Route path='/hotDrinksMenu' element={ <HotDrinksMenu/> }/>
-                        <Route path='/coldDrinksMenu' element={ <ColdDrinksMenu/> }/>
-                        <Route path='/nationalFoodsMenu' element={ <NationalFoodsMenu/> }/>
-                        <Route path='/easternCuisineMenu' element={ <EasternCuisineMenu/> }/>
-                        <Route path='/fastFoodsMenu' element={ <FastFoodsMenu/> }/>
+                        <Route path='desertMenu' element={<DesertsMenu/> }/>
+                        <Route path='hotDrinksMenu' element={ <HotDrinksMenu/> }/>
+                        <Route path='coldDrinksMenu' element={ <ColdDrinksMenu/> }/>
+                        <Route path='nationalFoodsMenu' element={ <NationalFoodsMenu/> }/>
+                        <Route path='easternCuisineMenu' element={ <EasternCuisineMenu/> }/>
+                        <Route path='fastFoodsMenu' element={ <FastFoodsMenu/> }/>
                     </Routes>
                 </div>
            </div>
@@ -31,3 +32,5 @@ const MenuRout = () => {
 };
 
 export default MenuRout;
+
+

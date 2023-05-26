@@ -1,8 +1,15 @@
 import {CiSearch} from "react-icons/ci";
 import React, {useState} from 'react';
-import {Link, NavLink} from "react-router-dom";
+import {Link, NavLink, Route, Router} from "react-router-dom";
 
 import {FiSearch} from "react-icons/fi";
+import MenuRout from "../../Pages/Menu/MenuRout";
+import DesertsMenu from "../../Pages/Menu/MenuPages/DesertsMenu";
+import HotDrinksMenu from "../../Pages/Menu/MenuPages/HotDrinksMenu";
+import ColdDrinksMenu from "../../Pages/Menu/MenuPages/ColdDrinksMenu";
+import NationalFoodsMenu from "../../Pages/Menu/MenuPages/NationalFoodsMenu";
+import EasternCuisineMenu from "../../Pages/Menu/MenuPages/EasternCuisineMenu";
+import FastFoodsMenu from "../../Pages/Menu/MenuPages/FastFoodsMenu";
 
 const Header = () => {
     const [burger, setBurger] = useState(false)
@@ -10,6 +17,8 @@ const Header = () => {
         <header id="header">
             <div className="container">
                 <div className="header">
+
+
                     <div
                         style={{
                             transform: !burger ? 'translateY(-120%)' : "",
@@ -42,19 +51,19 @@ const Header = () => {
                         <h1> Restaurant</h1>
                     </NavLink>
                     <nav className="header__navbar">
-                        <NavLink to={'/'}>
+                        <NavLink to='/'>
                             interior
                         </NavLink>
 
-                        <NavLink   to={'/about'}>
+                        <NavLink   to='about'>
                             About Us
                         </NavLink>
 
-                        <NavLink to={'/menuMain'}>
+                        <NavLink to='menuMain'>
                             Menu
                         </NavLink>
 
-                        <NavLink to={'/contact'}>
+                        <NavLink to='contact'>
                             Contacts
                         </NavLink>
 
@@ -65,7 +74,6 @@ const Header = () => {
                         </div>
                         <h3>En</h3>
                     </nav>
-
 
                     <div onClick={() => setBurger(!burger)} className="header__burger">
                         <div style={{

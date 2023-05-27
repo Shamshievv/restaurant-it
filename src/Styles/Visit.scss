@@ -1,5 +1,5 @@
 #visit{
-
+  background: #1d1f23;
   padding-bottom: 40px;
   .visit{
     display: flex;
@@ -8,7 +8,6 @@
     flex-wrap: wrap;
     &--title{
       &__sub{
-        font-family: 'Shalimar';
         font-style: normal;
         font-weight: 400;
         font-size: 40px;
@@ -18,7 +17,6 @@
       }
       h2{
         padding: 10px 0 15px 0;
-        font-family: 'Silk Serif',Serif;
         font-style: normal;
         font-weight: 600;
         font-size: 40px;

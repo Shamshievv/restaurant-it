@@ -1,9 +1,9 @@
 import './App.scss';
-import Header from "../src/components/Header/Header";
-import Footer from "./Pages/Footer/Footer";
-import MainN from "./Pages/Main/MainN";``
 import React from "react";
-import Menu from "./Pages/Menu/MenuAboute/AboutGlobal";
+import Header from "../src/components/Header/Header";
+import Footer from "../src/Pages/Footer/Footer";
+import MainN from "../src/Pages/Main/MainN";
+import Menu from "../src/Pages/Menu/MenuAboute/AboutGlobal";
 import { Route, Routes} from "react-router-dom";
 
 import About from "./Pages/About/About";
@@ -13,13 +13,10 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <h1>gagagag</h1>
         <Routes>
             <Route path="/" element={<MainN/>} >
                     <Route path="*" element={<MainN />} />
             </Route>
-
-
             <Route path="AboutMenu" element={<Menu/>} />
 
             <Route path={"about"} element={<About/>}/>

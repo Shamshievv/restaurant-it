@@ -2,9 +2,9 @@
   background: #1B2026;
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
   overflow: hidden;
-  //position: fixed;
-  //z-index: 99;
-  //width: 100%;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
   top: 0;
   left: 0;
   .header {
@@ -13,7 +13,6 @@
     align-items: center;
     padding: 20px 0;
     .header{
-      //position: sticky;
     }
     &__menu{
       display: none;

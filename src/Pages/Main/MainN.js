@@ -3,8 +3,8 @@ import Hero from "../Hero/Hero";
 import About from "../About/About";
 import Best from "../BestSellers/Best";
 import Main from "../MainMenu/Routes/Routes";
-import ModernInterier from "../ModernInterier/ModernInterier";
 import Visit from "../Visit/Visit";
+import Modern from "../ModernInterier/ModernInterier";
 const MainN = () => {
     return (
         <div>
@@ -12,7 +12,7 @@ const MainN = () => {
            <About/>
             <Best/>
             <Main/>
-            <ModernInterier/>
+            <Modern/>
             <Visit/>
         </div>
     );

@@ -6,6 +6,7 @@ import {ImLocation2} from 'react-icons/im'
 import {MdLocalPhone} from 'react-icons/md'
 import profile from "../../images/profile-window.svg"
 import telIcon from "../../images/tel-icon.svg"
+import {Link} from "react-router-dom";
 
 const Hero = () => {
     const [open,setOpen] = useState(false)
@@ -102,7 +103,10 @@ const Hero = () => {
                                 <h1>Hotline</h1>
                                 <div/>
                                 <MdLocalPhone className="hero--absence__select--icon"/>
-                                <h5>+771219900</h5>
+                                <a href="tel:+1234567890">+1 (234) 567-890</a>
+
+
+
                             </div>
                         </div>
                     </div>

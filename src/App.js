@@ -14,21 +14,18 @@ function App() {
   return (
     <div className="App">
         <Header />
-        {/*<Routes>*/}
-        {/*    <Route path="/" element={<MainN/>} />*/}
-            {/*        <Route path="*" element={<MainN />} />*/}
-            {/*</Route>*/}
-            {/*<Route path="AboutMenu" element={<Menu/>} />*/}
+        <Routes>
+            <Route path="/" element={<MainN/>} >
+                    <Route path="*" element={<MainN />} />
+            </Route>
 
 
+            <Route path="AboutMenu" element={<Menu/>} />
 
+            <Route path={"about"} element={<About/>}/>
+            <Route path="contact" element={<Visit/>}/>
 
-
-        {/*    <Route path={"about"} element={<About/>}/>*/}
-        {/*    <Route path="contact" element={<Visit/>}/>*/}
-
-        {/*</Routes>*/}
-        <Menu/>
+        </Routes>
         <Footer />
     </div>
   );

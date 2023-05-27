@@ -12,7 +12,6 @@ import FastFoods from "../pages/FastFoods";
 import IconImg from "../../../images/hero-wave-right.svg";
 import IconImg2 from "../../../images/hero-wave-right.svg";
 import { BsArrowRight } from 'react-icons/bs';
-import Menu from "../../Menu/MenuAboute/AboutGlobal";
 
 const Main = () => {
 
@@ -41,6 +40,7 @@ const Main = () => {
     <Route path='coldDrinks' element={ <ColdDrinks/> }/>
     <Route path='nationalFoods' element={ <NationalFoods/> }/>
     <Route path='easternCuisine' element={ <EasternCuisine/> }/>
+    <Route path='fastFoods' element={ <FastFoods/> }/>
 </Routes>
 
         </div>

@@ -1,10 +1,3 @@
-// import des1 from "./../../assets/img/des1.png"
-// import des2 from "./../../assets/img/des2.png"
-// import des3 from "./../../assets/img/des3.png"
-// import des4 from "./../../assets/img/des4.png"
-// import des5 from "./../../assets/img/des5.png"
-// import des6 from "./../../assets/img/des6.png"
-
 
 import DessertsMenu1 from "../images/DessertsMenu1.png";
 import DessertsMenu2 from "../images/DessertsMenu2.png";

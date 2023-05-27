@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App">
         <Header />
+        <h1>gagagag</h1>
         <Routes>
             <Route path="/" element={<MainN/>} >
                     <Route path="*" element={<MainN />} />

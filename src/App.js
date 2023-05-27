@@ -24,7 +24,7 @@ function App() {
 
             <Route path={"about"} element={<About/>}/>
             <Route path="contact" element={<Visit/>}/>
-
+<h1> gagagag</h1>
         </Routes>
         <Footer />
     </div>

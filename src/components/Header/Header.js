@@ -1,15 +1,6 @@
 import {CiSearch} from "react-icons/ci";
 import React, {useState} from 'react';
-import {Link, NavLink, Route, Router} from "react-router-dom";
-
-import {FiSearch} from "react-icons/fi";
-import MenuRout from "../../Pages/Menu/MenuRout";
-import DesertsMenu from "../../Pages/Menu/MenuPages/DesertsMenu";
-import HotDrinksMenu from "../../Pages/Menu/MenuPages/HotDrinksMenu";
-import ColdDrinksMenu from "../../Pages/Menu/MenuPages/ColdDrinksMenu";
-import NationalFoodsMenu from "../../Pages/Menu/MenuPages/NationalFoodsMenu";
-import EasternCuisineMenu from "../../Pages/Menu/MenuPages/EasternCuisineMenu";
-import FastFoodsMenu from "../../Pages/Menu/MenuPages/FastFoodsMenu";
+import {Link, NavLink} from "react-router-dom";
 
 const Header = () => {
     const [burger, setBurger] = useState(false)
@@ -59,7 +50,7 @@ const Header = () => {
                             About Us
                         </NavLink>
 
-                        <NavLink to='menuMain'>
+                        <NavLink to='AboutMenu'>
                             Menu
                         </NavLink>
 
@@ -72,7 +63,6 @@ const Header = () => {
                             <span><CiSearch/>
                             </span>
                         </div>
-                        <h3>En</h3>
                     </nav>
 
                     <div onClick={() => setBurger(!burger)} className="header__burger">

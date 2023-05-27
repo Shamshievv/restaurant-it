@@ -47,7 +47,7 @@ const Main = () => {
         <div  className="rout--link ">
             <ul >
                 <li className="nav-item ">
-                    <Link to="/menu" style={{color:"white"}} className="nav-link text-white">
+                    <Link to="AboutMenu" style={{color:"white"}} className="nav-link text-white">
                         <span style={{
                         }} >  View Full menu  <BsArrowRight/> </span>
                     </Link>

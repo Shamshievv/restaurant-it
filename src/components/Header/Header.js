@@ -59,7 +59,7 @@ const Header = () => {
                             About Us
                         </NavLink>
 
-                        <NavLink to='menuMain'>
+                        <NavLink to='AboutMenu'>
                             Menu
                         </NavLink>
 

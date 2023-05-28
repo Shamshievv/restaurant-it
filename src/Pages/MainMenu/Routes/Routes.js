@@ -17,7 +17,7 @@ const Main = () => {
 
 
     return (
-<div  id="rout">
+<div  id="rout" style={{background:"  #1d1f23"}}>
     <div className="rout ">
         <div className="rout--teen">
             <div className="rout--img " style={{color:"white" ,display:"flex",alignItems:"center",justifyContent:"space-between"}}>

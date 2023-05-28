@@ -103,9 +103,7 @@ const Hero = () => {
                                 <h1>Hotline</h1>
                                 <div/>
                                 <MdLocalPhone className="hero--absence__select--icon"/>
-                                <a href="tel:+1234567890">+1 (234) 567-890</a>
-
-
+                                <a style={{color:'white'}} href="tel:+1234567890">+1 (234) 567-890</a>
 
                             </div>
                         </div>

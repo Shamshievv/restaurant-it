@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Foods} from "../../../../data/Data";
 import {IoIosCloseCircleOutline} from "react-icons/io";
 import MenuIcons from "../../../../images/hero-wave.svg"
@@ -7,11 +7,10 @@ import "./AboutMenu.scss"
 
 const AboutFoods = () => {
     const [selectedTab, setSelectedTab] = useState(1);
-
     const [addFoods, setAddFoods] = useState(false)
 
-    const handleTabClick = (index) => {
-        setSelectedTab(index);
+    const handleTabClick = (id) => {
+        setSelectedTab(id);
     };
 
     return (
@@ -66,12 +65,12 @@ const AboutFoods = () => {
                                     Foods.slice(0, 1).map(el => (
                                         <div className="aboutFoods--block__addedFoods--spend">
                                             {
-                                                el.nameFoots.slice(0, 1).map(el => (
+                                                selectedTab === el.id ?   el.nameFoots.slice(0, 1).map(el => (
                                                     <div className="aboutFoods--block__addedFoods--spend__feel">
                                                         <div
                                                             className="aboutFoods--block__addedFoods--spend__feel--keep">
                                                             <div
-                                                                className="aboutFoods--block__addedFoods--spend__feel--keep__make" >
+                                                                className="aboutFoods--block__addedFoods--spend__feel--keep__make">
                                                                 <img src={el.images} alt=""/>
                                                                 <div
                                                                     className="aboutFoods--block__addedFoods--spend__feel--keep__make--give">
@@ -83,7 +82,9 @@ const AboutFoods = () => {
                                                                     <h2>{el.price}</h2>
                                                                 </div>
                                                             </div>
-                                                            <button className="aboutFoods--block__addedFoods--spend__feel--keep__btn">Desserts</button>
+                                                            <button
+                                                                className="aboutFoods--block__addedFoods--spend__feel--keep__btn">Desserts
+                                                            </button>
                                                             <div
                                                                 className="aboutFoods--block__addedFoods--spend__feel--keep__make--block">
                                                                 <div
@@ -117,7 +118,7 @@ const AboutFoods = () => {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                ))
+                                                )):""
                                             }
                                         </div>
                                     ))
@@ -129,11 +130,17 @@ const AboutFoods = () => {
                             <div className="aboutFoods--block--foodsName">
                                 {
                                     Foods.map(el => (
-                                        <div  className="aboutFoods--block__onlyFood" style={{alignItems:"center",display:"grid" ,gridTemplateColumns:"1fr 1fr"}}>
+                                        <div className="aboutFoods--block__onlyFood" style={{
+                                            alignItems: "center",
+                                            display: "grid",
+                                            gridTemplateColumns: "1fr 1fr"
+                                        }}>
                                             {
                                                 selectedTab === el.id && el.nameFoots.map(el => (
-                                                    <div  onClick={() => setAddFoods(true)}
-                                                          className="aboutFoods--block__onlyFood__parent" >
+                                                    <div onClick={() => {
+                                                        setAddFoods(true)
+                                                    }}
+                                                         className="aboutFoods--block__onlyFood__parent">
                                                         <img src={el.images} alt=""
                                                              className="aboutFoods--block__onlyFood__parent--img"/>
                                                         <div className="aboutFoods--block__onlyFood__parent--order">
@@ -146,6 +153,7 @@ const AboutFoods = () => {
                                                         </div>
                                                     </div>
                                                 ))
+
                                             }
                                         </div>
                                     ))

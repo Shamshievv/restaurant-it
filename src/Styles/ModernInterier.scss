@@ -1,8 +1,7 @@
 #modern {
   padding-top: 110px;
-  position: relative;
+  //position: relative;
   background: #1d1f23;
-
   .line{
     position: absolute;
     height: 490px;
@@ -29,9 +28,9 @@
         flex-direction:column;
 
         &--img {
-          //margin: 0 0 0 8px;
-          //width:30px;
-          //padding:2px 0;
+          margin: 0 0 0 8px;
+          width:30px;
+          padding:2px 0;
         }
         &--line{
           width:50px;
@@ -54,12 +53,12 @@
     }
 
     &--image {
-      margin: 0 10px;
+      margin: 0 25px;
 
       &__fon {
         display: flex;
         align-items: center;
-        margin: 10px 0 0 0;
+        margin: 10px 0;
 
         img {
           margin: 0 6px;
@@ -102,10 +101,16 @@
 
 }
 
+@media (max-width:678px) {
+  #modern .modern {
+    margin-right: -64.1%;
+    width: 640px;
+  }
+}
 @media (max-width:576px) {
   #modern .modern {
     margin-right: -64.1%;
-    width: 533px;
+    width: 600px;
   }
 
   #modern .modern--text__title {
@@ -136,6 +141,8 @@
 @media (max-width: 400px) {
   #modern .modern {
     margin-right: -115.1%;
+    width: 350px;
+
   }
 
   #modern .modern--text__title {

@@ -2,7 +2,7 @@
 #sidebar {
   width: 50%;
   height: 100%;
-   .sidebar--all {
+  .sidebar--all {
      display: flex;
      flex-wrap: wrap;
      flex-direction: column;
@@ -173,10 +173,16 @@
 }
 
 
-}
-@media (max-width: 992px) {
+//}
+//@media (max-width: 992px) {
+//  #sidebar{
+//&--sidebar{
+//  .sidebar{
+//    width: 100%;
+//  }
+//}  }
   .pages{
-    width: 65%;
+    width: 72%;
     .order-now {
       display: flex;
       justify-content: flex-start;
@@ -229,6 +235,20 @@
 
 }
 
+@media (max-width: 992px) {
+  #sidebar{
+      &--all{
+        .sidebar{
+          width: 100%;
+        }}
+    hr{
+      width: 85%;
+    }
+    ul li a:hover {
+      width:85%;
+    }
+  }}
+
 @media (max-width: 800px) {
   #sidebar{
     hr{
@@ -275,7 +295,7 @@
 @media (max-width: 480px) {
   #rout{
     .rout--link {
-      margin-left: 145px;
+      margin-left: 85px;
     }
   }
   #sidebar {
@@ -291,5 +311,7 @@
       width: 86%;
     }
   }}
+
+
 
 

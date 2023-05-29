@@ -2,21 +2,25 @@
   background: #1d1f23;
   .best{
     display: flex;
-    padding: 234px 2% 80px 5% ;
+    justify-content: space-between;
+    padding: 234px 0 0 0;
     &--block{
       width: 500px;
-      margin: 0 auto;
       h1{
+        font-family: 'Silk Serif', sans-serif;
         font-weight: 600;
         font-size: 40px;
+        line-height: 50px;
         color: #FFFFFF;
-        padding: 10px 0 10px 0;
+        padding: 25px 0 30px 0;
       }
       p{
+        font-family: 'Spartan',sans-serif;
         font-weight: 400;
         font-size: 16px;
         color: #FFFFFF;
         width: 80%;
+        line-height: 24px;
       }
       &__group{
         &--image{
@@ -24,8 +28,7 @@
         }
         display: flex;
         &--img{
-          width: 50px;
-         gap: 3px;
+         gap: 1px;
         }
         &--image{
           padding: 0 0 0 30px;
@@ -37,7 +40,7 @@
       }
     }
     &--slider{
-      width: 47%;
+      width: 40%;
       margin: 0 auto;
       gap: 0 10px;
       &--img1{

@@ -36,7 +36,6 @@ const Best = () => {
                     </div>
                     <div className="best--slider">
                         <Slider {...settings}>
-                            {/*<div className="best--image">*/}
                             <div>
                                 <img className="best--img1" src={frem19} alt="img"/>
                             </div>

@@ -2,37 +2,41 @@
   background: #1d1f23;
   .about{
     display: grid;
+    justify-content: space-between;
     padding: 70px 0 0 0;
       &--block{
         display: grid;
         grid-template-columns:repeat(auto-fit,minmax(300px,1fr)) ;
         grid-gap:1rem ;
-        margin: 0 0 0 5%;
         &__group{
           img{
             width: 30%;
           }
           h1{
+            font-family: 'Silk Serif', sans-serif;
             font-weight: 600;
             font-size: 41px;
             width:70%;
             color: #FFFFFF;
-            padding: 1% 0 3% 0;
+            //padding: 1% 0 7% 0;
+            padding: 18px 0 66px 0;
           }
         }
         p{
           font-weight: 400;
+          font-family: 'Spartan',sans-serif;
           font-size:16px;
           width: 70%;
           color: #FFFFFF;
-          padding: 5% 0 0 0;
+          line-height: 24px;
+          //padding: 5% 0 0 0;
+          padding: 60px 0 0 0 ;
         }
       }
     &--images{
       display: grid;
       grid-template-columns:repeat(auto-fit,minmax(200px,1fr)) ;
       grid-gap:1rem ;
-      //margin: 0 0 0 60px;
       img{
         width: 90%;
       }
@@ -67,7 +71,6 @@
     .about{
       &--block{
         &--images{
-
       }
         margin: 0;
         h1{

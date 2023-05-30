@@ -62,9 +62,9 @@ const Header = () => {
                             </span>
                         </div>
                         <select style={{border:'none',outline:'none',background:'none'}}>
-                            <option style={{background:'black'}} value="">EN</option>
-                            <option style={{background:'black'}} value="">RU</option>
-                            <option style={{background:'black'}} value="">KG</option>
+                            <option style={{background:'black'}} value="">En</option>
+                            <option style={{background:'black'}} value="">Ru</option>
+                            <option style={{background:'black'}} value="">Kg</option>
                         </select>
                     </nav>
 

@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import {Foods} from "../../../../data/Data";
+import {Foods} from "../../data/Data";
 import {IoIosCloseCircleOutline} from "react-icons/io";
-import MenuIcons from "../../../../images/hero-wave.svg"
+import MenuIcons from "../../images/hero-wave.svg"
 import {FiSearch} from "react-icons/fi";
 import "./AboutMenu.scss"
 
@@ -39,15 +39,18 @@ const AboutFoods = () => {
                                             <div
                                                 style={{
                                                     background: selectedTab === el.id ? "#EF272C" : "",
+
                                                 }}
                                                 className={selectedTab === el.id ? 'active mainMenu--block--blockChild__foods--allBtn__btn' : 'mainMenu--block--blockChild__foods--allBtn__btn'}
                                                 onClick={() => {
                                                     handleTabClick(el.id)
-                                                }}>
+                                                }}
+                                            >
                                                 <button style={{
                                                     border: selectedTab === el.id ? "none" : "",
                                                 }}>{el.title}</button>
-                                                <div style={{
+                                                <div
+                                                    style={{
                                                     transition: ".4s",
                                                     left: selectedTab === el.id ? "" : "-60px",
                                                 }} className="mainMenu--block--blockChild__foods--allBtn__btn--line"/>
@@ -130,11 +133,7 @@ const AboutFoods = () => {
                             <div className="aboutFoods--block--foodsName">
                                 {
                                     Foods.map(el => (
-                                        <div className="aboutFoods--block__onlyFood" style={{
-                                            alignItems: "center",
-                                            display: "grid",
-                                            gridTemplateColumns: "1fr 1fr"
-                                        }}>
+                                        <div className="aboutFoods--block__onlyFood">
                                             {
                                                 selectedTab === el.id && el.nameFoots.map(el => (
                                                     <div onClick={() => {
@@ -149,7 +148,7 @@ const AboutFoods = () => {
                                                                 <h4>{el.name}</h4>
                                                                 <h5>{el.desert}</h5>
                                                             </div>
-                                                            <h3>{el.price}</h3>
+                                                            <h3>${el.price}</h3>
                                                         </div>
                                                     </div>
                                                 ))

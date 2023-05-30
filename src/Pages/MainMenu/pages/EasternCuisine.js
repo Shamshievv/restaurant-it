@@ -12,25 +12,25 @@ const EasternCuisine = () => {
         },
         {
             id:2,
-            title:'Shawarma',
+            title:'Sushi',
             price:"37",
             description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
         },
         {
             id:3,
-            title:' Miso Soup',
+            title:' Sushi',
             price:"15",
             description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
         },
         {
             id:4,
-            title:' Sashimi',
+            title:' Sushi',
             price:"9",
             description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
         },
         {
             id:5,
-            title:' Falafel',
+            title:'Sushi',
             price:"12",
             description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
         },
@@ -46,7 +46,7 @@ const EasternCuisine = () => {
                             <div>
                                 <div className="deserts--all" style={{ display:'flex',alignItems:"center",justifyContent:"space-between"}}>
                                     <h4>{item.title }</h4>
-                                    <h5>...............................................................</h5>
+                                    <h5>.....................................................................................</h5>
                                     <h2> ${item.price}</h2>
                                 </div>
                                 <p style={{padding:"15px 0"}}> {item.description}</p>

@@ -30,9 +30,9 @@ const Header = () => {
                                 Contacts
                             </NavLink>
                             <div className="header__menu--navbar__languages">
-                                <button>EN</button>
-                                <button>RU</button>
-                                <button>KG</button>
+                                <button>En</button>
+                                <button>Ru</button>
+                                <button>Kg</button>
                             </div>
                         </nav>
                     </div>

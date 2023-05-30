@@ -18,7 +18,7 @@ const Main = () => {
 
     return (
 <div  id="rout" style={{background:"  #1d1f23"}}>
-    <div className="rout ">
+    <div className="rout " >
         <div className="rout--teen">
             <div className="rout--img " style={{color:"white" ,display:"flex",alignItems:"center",justifyContent:"space-between"}}>
                 <img src={IconImg} alt=""/>
@@ -31,19 +31,18 @@ const Main = () => {
                 Delightfully Delicious</h1>
 
         </div>
+    <div className="rout--all d-flex p-3">
+        <Sidebar/>
+        <Routes>
+            <Route path='desert' element={<Desserts/> }/>
+            <Route path='hotDrinks' element={ <HotDrinks/> }/>
+            <Route path='coldDrinks' element={ <ColdDrinks/> }/>
+            <Route path='nationalFoods' element={ <NationalFoods/> }/>
+            <Route path='easternCuisine' element={ <EasternCuisine/> }/>
+            <Route path='fastFoods' element={ <FastFoods/> }/>
+        </Routes>
+</div>
 
-        <div className="rout--all d-flex p-3">
-            <Sidebar/>
-<Routes>
-    <Route path='desert' element={<Desserts/> }/>
-    <Route path='hotDrinks' element={ <HotDrinks/> }/>
-    <Route path='coldDrinks' element={ <ColdDrinks/> }/>
-    <Route path='nationalFoods' element={ <NationalFoods/> }/>
-    <Route path='easternCuisine' element={ <EasternCuisine/> }/>
-    <Route path='fastFoods' element={ <FastFoods/> }/>
-</Routes>
-
-        </div>
         <div  className="rout--link ">
             <ul >
                 <li className="nav-item ">
@@ -56,8 +55,6 @@ const Main = () => {
             </ul>
 
         </div>
-
-
     </div>
 
 </div>

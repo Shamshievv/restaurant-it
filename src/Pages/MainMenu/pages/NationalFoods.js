@@ -12,25 +12,25 @@ const NationalFoods = () => {
         },
         {
             id:2,
-            title:'Argentine Steak',
+            title:'Beshbarmak',
             price:"27",
             description:"Large dumplings usually filled with meat. "
         },
         {
             id:3,
-            title:'Barbecue ',
+            title:'Beshbarmak ',
             price:"22",
             description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
         },
         {
             id:4,
-            title:' Meatballs',
+            title:' Beshbarmak',
             price:"9",
             description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
         },
         {
             id:5,
-            title:' Paella ',
+            title:'Beshbarmak ',
             price:"32",
             description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
         },
@@ -43,22 +43,26 @@ const NationalFoods = () => {
                     {
                         data.map((item,idx)=>(
                             <div>
-                                <div className="deserts--all" style={{ display:'flex',alignItems:"center",justifyContent:"space-between"}}>
+                                <div className="deserts--all" style={{ display:'flex',alignItems:"center",justifyContent:"space-between" }}>
                                     <h4>{item.title }</h4>
-                                    <h5>...............................................................</h5>
+                                    <h5>.....................................................................................</h5>
                                     <h2> ${item.price}</h2>
                                 </div>
-                                <p style={{padding:"15px 0"}}> {item.description}</p>
-                                <div className="order-now">
-                                    <ul>
-                                        <li className="nav-item ">
-                                            <Link to="/" className="nav-link">
-                                                <span className="">Order Now</span>
-                                                <hr/>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
+                               <div style={{
+
+                               }}>
+                                   <p style={{padding:"15px 0"}}> {item.description}</p>
+                                   <div className="order-now">
+                                       <ul>
+                                           <li className="nav-item ">
+                                               <Link to="/" className="nav-link">
+                                                   <span className="">Order Now</span>
+                                                   <hr/>
+                                               </Link>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </div>
                             </div>
                         ))
                     }

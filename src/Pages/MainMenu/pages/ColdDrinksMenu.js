@@ -12,25 +12,25 @@
             },
             {
                 id:2,
-                title:'Fruit juice',
+                title:'Burger&Pasta',
                 price:"37",
                 description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
             },
             {
                 id:3,
-                title:' Smoothie',
+                title:' Burger&Pasta',
                 price:"15",
                 description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
             },
             {
                 id:4,
-                title:' Ice cream',
+                title:' Burger&Pasta',
                 price:"9",
                 description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
             },
             {
                 id:5,
-                title:' Lemonade',
+                title:' Burger&Pasta',
                 price:"12",
                 description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
             },
@@ -45,7 +45,7 @@
                                 <div>
                                         <div className="deserts--all" style={{ display:'flex',alignItems:"center",justifyContent:"space-between"}}>
                                             <h4>{item.title }</h4>
-                                            <h5>...............................................................</h5>
+                                            <h5>.....................................................................................</h5>
                                             <h2> ${item.price}</h2>
                                         </div>
                                     <p style={{padding:"15px 0"}}> {item.description}</p>

@@ -6,31 +6,31 @@ const FastFoods = () => {
 
         {
             id:1,
-            title:'Milkshake',
+            title:'Beer Brewery',
             price:"23",
             description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
         },
         {
             id:2,
-            title:'Shawarma',
+            title:'Beer Brewery',
             price:"37",
             description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
         },
         {
             id:3,
-            title:' Pizza',
+            title:' Beer Brewery',
             price:"45",
             description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
         },
         {
             id:4,
-            title:' Hot Dog',
+            title:' Beer Brewery',
             price:"18",
             description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
         },
         {
             id:5,
-            title:' Sandwich',
+            title:' Beer Brewery',
             price:"12",
             description:" Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ. "
         },
@@ -46,7 +46,7 @@ const FastFoods = () => {
                             <div>
                                 <div className="deserts--all" style={{ display:'flex',alignItems:"center",justifyContent:"space-between"}}>
                                     <h4>{item.title }</h4>
-                                    <h5>...............................................................</h5>
+                                    <h5>.....................................................................................</h5>
                                     <h2> ${item.price}</h2>
                                 </div>
                                 <p style={{padding:"15px 0"}}> {item.description}</p>

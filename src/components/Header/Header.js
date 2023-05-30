@@ -8,8 +8,6 @@ const Header = () => {
         <header id="header">
             <div className="container">
                 <div className="header">
-
-
                     <div
                         style={{
                             transform: !burger ? 'translateY(-120%)' : "",
@@ -63,6 +61,11 @@ const Header = () => {
                             <span><CiSearch/>
                             </span>
                         </div>
+                        <select style={{border:'none',outline:'none',background:'none'}}>
+                            <option style={{background:'black'}} value="">EN</option>
+                            <option style={{background:'black'}} value="">RU</option>
+                            <option style={{background:'black'}} value="">KG</option>
+                        </select>
                     </nav>
 
                     <div onClick={() => setBurger(!burger)} className="header__burger">
@@ -96,7 +99,6 @@ const Header = () => {
                             transform: burger ? "rotate(-49deg)" : "rotate(0)",
                             display: burger ? "block" : "none" ,
                             transition:burger ? ".4s": ""
-
                         }}
                               className="header__close"/>
                     </div>

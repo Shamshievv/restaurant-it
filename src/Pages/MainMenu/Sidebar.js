@@ -9,7 +9,7 @@ const Sidebar = () => {
                         <ul className="nav">
                             <li className="nav-item ">
                                 <Link to="/desert" className="nav-link ">
-                                    <span> Desserts</span>
+                                    <span>Desserts</span>
                                 </Link>
                                 <hr className="text-secondary "/>
                             </li>
@@ -45,8 +45,6 @@ const Sidebar = () => {
                             </li>
 
                         </ul>
-
-
                     </div>
                 </div>
             </div>

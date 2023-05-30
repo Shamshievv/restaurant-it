@@ -47,8 +47,7 @@ const Main = () => {
             <ul >
                 <li className="nav-item ">
                     <Link to="AboutMenu" style={{color:"white"}} className="nav-link text-white">
-                        <span style={{
-                        }} >  View Full menu  <BsArrowRight/> </span>
+                        <span style={{display:'flex',alignItems:"center"}} >  View Full menu  <BsArrowRight style={{padding:"0 0 0 15px"}}/> </span>
                     </Link>
                 </li>
 

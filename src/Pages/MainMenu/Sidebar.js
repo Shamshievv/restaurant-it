@@ -14,6 +14,7 @@ const Sidebar = () => {
                 <div className="sidebar--all" style={{ textAlign: 'center' }}>
                     <div className="sidebar">
                         <ul className="nav">
+
                             <li className={`nav-item ${activeTab === 0 ? 'active' : ''}`}>
                                 <Link to="/desert" className="nav-link" onClick={() => handleTabClick(0)}>
                                     <span>Desserts</span>
@@ -22,6 +23,11 @@ const Sidebar = () => {
                                             <hr className="line-left" style={{ width:"68px", marginLeft:"  230px  "}} />
                                         </div>
                                     )}
+
+                            <li className="nav-item ">
+                                <Link to="/desert" className="nav-link ">
+                                    <span>Desserts</span>
+
                                 </Link>
                             </li>
                             <hr/>

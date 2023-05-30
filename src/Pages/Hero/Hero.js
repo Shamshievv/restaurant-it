@@ -17,14 +17,6 @@ const Hero = () => {
             return setOpen(false)
         }
     }
-    // function getClose () {
-    //     if (open === true){
-    //         setOpen(false)
-    //     }
-    //
-    // }
-
-
     return (
         <div style={{
             overflow:"hidden",
